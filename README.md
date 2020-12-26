@@ -33,7 +33,7 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
             return view('auth.passwords.reset', ['request' => $request]);
         });
      ```
-     *Necesitamos copiar de algún proyecto con laravel 8 ui en view esto:
+     * Necesitamos copiar de algún proyecto con laravel 8 ui en view esto:
      
      ![Alt text](/img/Screenshot_2.png?raw=true)
      
@@ -41,8 +41,12 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
       
      ![Alt text](/img/Screenshot_3.png?raw=true)
      
-     *Ahora tenemos que iniciar nuestro proyecto y entrar en el login
+     * Ahora tenemos que iniciar nuestro proyecto y entrar en el login
      
      ![Alt text](/img/Screenshot_4.png?raw=true)
+     
+     **Nota**: Si se va al apartado de registrar por ejemplo y una vez registrado nos sale un 404 en ``routes/web.php`` hacemos lo siguiente:
+     ``Route::view('home','home);``
+     
      
      
