@@ -34,5 +34,6 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
         });
      ```
      *Necesitamos copiar de algún proyecto con laravel 8 ui en view esto:
+     
      ![Alt text](/img/Screenshot_2.png?raw=true)
      
