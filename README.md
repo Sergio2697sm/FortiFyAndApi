@@ -48,5 +48,6 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
      **Nota**: Si se va al apartado de registrar por ejemplo y una vez registrado nos sale un 404 en ``routes/web.php`` hacemos lo siguiente:
      ``Route::view('home','home);``
      
-     
+     # API
+     Lo de la Api tengo un controlador dentro de ``Controller/Api`` donde hago un CRUD sobre una tabla llamada articulos donde se puede probar con postman
      
