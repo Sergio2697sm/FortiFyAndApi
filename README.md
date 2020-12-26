@@ -32,4 +32,4 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
      Fortify::resetPasswordView(function ($request) {
             return view('auth.passwords.reset', ['request' => $request]);
         });
-        ```
+     ```
