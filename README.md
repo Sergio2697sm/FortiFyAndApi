@@ -33,3 +33,6 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
             return view('auth.passwords.reset', ['request' => $request]);
         });
      ```
+     *Necesitamos copiar de algún proyecto con laravel 8 ui en view esto:
+     
+     
