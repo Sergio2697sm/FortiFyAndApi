@@ -40,3 +40,9 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
      * Y de la carpeta ``public`` lo siguiente:
       
      ![Alt text](/img/Screenshot_3.png?raw=true)
+     
+     *Ahora tenemos que iniciar nuestro proyecto y entrar en el login
+     
+     ![Alt text](/img/Screenshot_4.png?raw=true)
+     
+     
