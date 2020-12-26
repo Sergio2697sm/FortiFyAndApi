@@ -15,12 +15,21 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
 * Una vez instalado lo anterior, necesitamos indicar en el archivo ``.env`` la tabla que vamos a usar y donde nos vamos a conectar y hacer un ``php artisan migrate``
 * En el archivo ``/config/app.php`` en el apartado providers ponemos lo siguiente: ``App\Providers\FortifyServiceProvider::class``
 * Ahora dentro del archivo ``app/Providers/FortifyServiceProvider.php`` dentro de la funcion ``boot()`` introducimos las distintas vistas:
-``Fortify::loginView(fn () => view('auth.login'));
-        Fortify::registerView(fn () => view('auth.register'));
-        Fortify::requestPasswordResetLinkView(function () {
+    - Una para la vista del login: 
+    ``Fortify::loginView(fn () => view('auth.login'));``
+    
+    - Una para la vista de registro:   
+    ``Fortify::registerView(fn () => view('auth.register'));``
+    
+    - Una para restablecer la contraseña(contraseña olvidada):
+    ```
+    Fortify::requestPasswordResetLinkView(function () {
             return view('auth.passwords.email');
         });
-
-        Fortify::resetPasswordView(function ($request) {
+     ``` 
+     - Una para Restablecimiento de la contraseña:
+     ```
+     Fortify::resetPasswordView(function ($request) {
             return view('auth.passwords.reset', ['request' => $request]);
-        });``
+        });
+        ```
