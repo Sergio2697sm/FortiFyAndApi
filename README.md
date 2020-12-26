@@ -10,6 +10,6 @@ Es un metodo de autenticación donde el backend es idependiente del frontend.
 
 Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos pasos:
 
-* Necesitamos instalar el paquete de fortify -> **composer require laravel/fortify**
+* Necesitamos instalar el paquete de fortify -> ``composer require laravel/fortify``
 
 
