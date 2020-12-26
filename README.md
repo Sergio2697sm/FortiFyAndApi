@@ -37,5 +37,6 @@ Necesitamos un proyecto limpio en laravel. Donde tendremos que seguir estos paso
      
      ![Alt text](/img/Screenshot_2.png?raw=true)
      
-     * Y de la carpeta ```public`` lo siguiente:
-      ![Alt text](/img/Screenshot_2.png?raw=true)
+     * Y de la carpeta ``public`` lo siguiente:
+      
+     ![Alt text](/img/Screenshot_3.png?raw=true)
